@@ -1,0 +1,121 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #222;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  background-image: url("file:///C:/Users/ramdh/OneDrive/Desktop/foto/profil_1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+
+.banner {
+  background-color: #eef7f1;
+  border-top: 2px solid #4caf50;
+  border-bottom: 2px solid #4caf50;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.tree-logo {
+  width: 30px;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.join {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.subjudul {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.bio {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.profile {
+  width: 100px;
+  border-radius: 8px;
+}
+
+.bio p {
+  font-size: 15px;
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.infobox {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.infobox th {
+  background-color: #b30000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.subtable {
+  font-weight: normal;
+  font-size: 13px;
+  display: block;
+  margin-top: 5px;
+}
+
+.infobox td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
